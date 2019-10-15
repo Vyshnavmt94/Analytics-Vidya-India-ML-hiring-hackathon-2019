@@ -9,6 +9,8 @@ Given the information like mortgage details, borrowers related details and payme
 
 # Data Description
 
+https://datahack.analyticsvidhya.com/contest/india-ml-hiring-hackathon-2019/
+
 # train.zip
 train.zip contains train.csv. train.csv contains the training data with details on loan as described in the last section
 
@@ -54,3 +56,17 @@ You can only make 15 submissions per day
 Code file is mandatory while setting final submission. For GUI based tools, please upload a zip file of snapshots of steps taken by you, else upload code file.
 The code file uploaded should be pertaining to your final submission.
 No submission will be accepted after the contest deadline
+
+# Extracting features:
+- Convert categorical features to dummy variables.
+- Convert dates to Date_Time format and extract features Month, Week, Day of th month, Day of the week.
+- Find the feature importances and the correlated features
+- Feature importance - Gives what are the features in the data influence the label (here, 1- delequent, 0- non-delequent)
+- Correlated features - The features that are correlated to the label are important in classification algorithm (but not in regression algorithm)
+- Extracting features like Max delequent of previous months, Min delequent of previous months, Max min diffetence of previous months, Sum of delequent of previous months, Mean delequent of previous months, Variance delequent of previous months, Number of delequent months, Median of delequent of previous months, Skewness of previous months - gives whether the delequency is more in the later or earlier months, Kurtosis of previous months - tailedness - i.e, how the delequency is in recent months
+
+
+# F1 score = 0.405
+
+# private leader board rank
+259/712 among 3740 participants
