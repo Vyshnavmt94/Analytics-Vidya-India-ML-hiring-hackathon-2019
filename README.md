@@ -50,5 +50,7 @@ No submission will be accepted after the contest deadline
 
 # F1 score = 0.405
 
-# private leader board rank
-259/712 among 3740 participants
+### Leaderboard
+
+* **[Public LB](https://datahack.analyticsvidhya.com/contest/india-ml-hiring-hackathon-2019/lb?page=2)** : **398th/712 Rank**
+* **[Private LB](https://datahack.analyticsvidhya.com/contest/india-ml-hiring-hackathon-2019/pvt_lb)** : **258th/712 Rank**
